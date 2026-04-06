@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local datasets and training artifacts
+dataset/
+dataset_*/
+dataset_tmp_*/
+external_datasets/
+cash_register_artifacts/
+
+# Temp / backups
+*.bak
+*.bak_*
+*.tmp
+*.temp
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
